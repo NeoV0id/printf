@@ -23,27 +23,28 @@ while (format && format[i])
 		{
 			return (-1);
 		}
-		else if (format[i + 1] == '%')
-		{
-			i++;
-			continue;
-		}
 		else if (format[i + 1] == 'i' || format[i + 1] == 'd'
 		|| format[i + 1] == 'c' || format[i + 1] == 's')
 		{
 			(get_sp_func(format[i + 1]))(ap, &count);
 			i++;
 		}
+		else if(format[i + 1] == '%')
+		{
+			i++;
+			continue;
+		}
 		else
 		{
+			_putchar(format[i]);
 			i++;
 			continue;
 		}
 	}
 	else
 	{
-		_putchar(format[i]);
-		count++;
+	_putchar(format[i]);
+	count++;
 	}
 	i++;
 }

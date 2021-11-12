@@ -17,7 +17,7 @@ va_list ap;
 va_start(ap, format);
 if (!(format))
 {
-	return (0);
+	return (-1);
 }
 while (format && format[i])
 {
@@ -28,23 +28,14 @@ while (format && format[i])
 			return (-1);
 		}
 		else if (format[i + 1] == 'i' || format[i + 1] == 'd'
-		|| format[i + 1] == 'c' || format[i + 1] == 's')
+		|| format[i + 1] == 'c' || format[i + 1] == 's'
+		|| format[i + 1] == '%')
 		{
 			(get_sp_func(format[i + 1]))(ap, &count);
 			i++;
 		}
-		/*else if (format[i + 1] == '%')
-		*{
-		*	i++;
-		*	continue;
-		*}
-		*/
 		else
 		{
-			/*if (format[i + 1] == '%')
-			*{
-			*	count++;
-			}*/
 			_putchar(format[i]);
 			i++;
 			count++;

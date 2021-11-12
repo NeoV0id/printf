@@ -14,12 +14,11 @@ printing sp[] = {
 	{'d', print_numbers},
 	{'c', put_char},
 	{'s', print_string},
-	{0, 0}
 };
 int i;
 
 i = 0;
-while (i < 5)
+while (i < 4)
 {
 	if ((sp[i]).identifier == ch)
 		return (sp[i].func);

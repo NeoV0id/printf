@@ -15,6 +15,10 @@ int i = 0, count = 0;
 va_list ap;
 
 va_start(ap, format);
+if (!(format))
+{
+	return (0);
+}
 while (format && format[i])
 {
 	if (format[i] == '%')

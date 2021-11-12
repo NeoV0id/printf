@@ -37,12 +37,13 @@ while (format && format[i])
 		*/
 		else
 		{
-			if (format[i + 1] == '%')
-			{
-				count++;
-			}
+			/*if (format[i + 1] == '%')
+			*{
+			*	count++;
+			}*/
 			_putchar(format[i]);
 			i++;
+			count++;
 			continue;
 		}
 	}

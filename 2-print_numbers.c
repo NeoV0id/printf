@@ -8,7 +8,9 @@
 void print_numbers(va_list ap, int *p)
 {
 	int num;
-	unsigned int un_num;	num = va_arg(ap, int);
+	unsigned int un_num;
+
+	num = va_arg(ap, int);
 	if (num == 0)
 	{
 		_putchar('0');
@@ -27,12 +29,14 @@ void print_numbers(va_list ap, int *p)
 		print_numbers_rec(un_num, p);
 		*p -= 1;
 	}
-}/**
+}
+/**
  * print_numbers_rec - print the numbers
  * @a: number to print
  * @p: pointer to count
  * Return: nothing
- */void print_numbers_rec(unsigned int a, int *p)
+ */
+void print_numbers_rec(unsigned int a, int *p)
 {
 	*p += 1;
 	if (a >= 1)

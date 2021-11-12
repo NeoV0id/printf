@@ -34,6 +34,11 @@ while (format && format[i])
 			(get_sp_func(format[i + 1]))(ap, &count);
 			i++;
 		}
+		else
+		{
+			i++;
+			continue;
+		}
 	}
 	else
 	{

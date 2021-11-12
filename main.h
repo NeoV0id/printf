@@ -8,6 +8,7 @@ typedef struct printing
 	void (*func)(va_list, int *);
 } printing;
 
+void percent(va_list, int *);
 void print_numbers(va_list, int *);
 void print_numbers_rec(unsigned int a, int *p);
 void put_char(va_list , int *);

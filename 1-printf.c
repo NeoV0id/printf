@@ -29,13 +29,18 @@ while (format && format[i])
 			(get_sp_func(format[i + 1]))(ap, &count);
 			i++;
 		}
-		else if(format[i + 1] == '%')
-		{
-			i++;
-			continue;
-		}
+		/*else if (format[i + 1] == '%')
+		*{
+		*	i++;
+		*	continue;
+		*}
+		*/
 		else
 		{
+			if (format[i + 1] == '%')
+			{
+				count++;
+			}
 			_putchar(format[i]);
 			i++;
 			continue;

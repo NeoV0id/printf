@@ -4,69 +4,36 @@
 #include <unistd.h>
 
 /**
- * print_all - print all arguments
+ * _printf - print the string and all arguments
  * @format: format argument
+ * Return: the length of string
  */
 
 int _printf(const char *format, ...)
 {
 int i = 0, count = 0;
 va_list ap;
-char *s;
-int ch, in, db;
-unsigned int it, d;
 
 va_start(ap, format);
 while (format && format[i])
 {
-	if (format[i] == '%' && !(format[i + 1]))
+	if (format[i] == '%')
 	{
-		return (-1);
-	}
-	if (format[i] == '%' && format[i + 1] == 'i')
-	{
-		in = va_arg(ap, int);
-		if (in < 0)
+		if (!(format[i + 1]))
 		{
-			it = (unsigned int)in * -1;
-			_putchar('-');
-			count++;
+			return (-1);
 		}
-		else
-			it = (unsigned int)in;
-		print_numbers(it, &count);
-		i++;
-	}
-	else if (format[i] == '%' && format[i + 1] == 'd')
-	{
-		db = (int)va_arg(ap, int);
-		if (db < 0)
+		else if (format[i + 1] == '%')
 		{
-			d = (unsigned int)db * -1;
-			_putchar('-');
+			i++;
+			continue;
 		}
-		else
-			d = (unsigned int)db;
-		print_numbers(d, &count);
-		i++;
-	}
-	else if (format[i] == '%' && format[i + 1] == 'c')
-	{
-		ch = va_arg(ap, int);
-		_putchar(ch);
-		i++;
-		count++;
-	}
-	else if (format[i] == '%' && format[i + 1] == 's')
-	{
-		s = va_arg(ap, char *);
-		_printstr(s, &count);
-		i++;
-	}
-	else if(format[i] == '%' && format[i + 1] == '%')
-	{
-		i++;
-		continue;
+		else if (format[i + 1] == 'i' || format[i + 1] == 'd'
+		|| format[i + 1] == 'c' || format[i + 1] == 's')
+		{
+			(get_sp_func(format[i + 1]))(ap, &count);
+			i++;
+		}
 	}
 	else
 	{

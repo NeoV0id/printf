@@ -1,17 +1,19 @@
-#include "main.h"
+include "main.h"
 #include <stdlib.h>
 
 /**
- * _printstr - prints strings
- * @str: string to print
- *
+ * print_string - prints strings
+ * @ap: string to print
+ * @p: pointer to count
  * Return: 0 for success
  */
 
-int _printstr(char *str, int *p)
+void print_string(va_list ap, int *p)
 {
 	int i;
+	char *str;
 
+	str = va_arg(ap, char *);
 	if (!(str))
 	{
 		str = "(null)";
@@ -26,5 +28,4 @@ int _printstr(char *str, int *p)
 		_putchar(str[i]);
 		*p += 1;
 	}
-	return (0);
 }

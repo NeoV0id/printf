@@ -13,8 +13,8 @@ int main(void)
     int len2;
     unsigned int ui;
     void *addr;
-	
-         int leng, leng2;
+    int leng, leng2;
+    int n, n2;
 
     len = _printf("Let's try to printf a simple sentence.\n");
     len2 = printf("Let's try to printf a simple sentence.\n");
@@ -54,5 +54,14 @@ int main(void)
 		printf("Lengths differ.\n");
 		fflush(stdout);
 	}
+	n2 = 1;
+	n = _printf(NULL);
+	fflush(stdout);
+	if (n != n2)
+	{
+		printf("Lengths differ.\n");
+		fflush(stdout);
+	}
+	printf("_printf = %d\n printf = %d\n", n, n2);
     return (0);
 }

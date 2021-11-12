@@ -23,7 +23,8 @@ void print_numbers(va_list ap, int *p)
 	{
 		un_num = (unsigned int)num;
 	}
-	print_numbers_rec(un_num, p + 1);
+	print_numbers_rec(un_num, p);
+	*p -= 1;
 }
 
 /**

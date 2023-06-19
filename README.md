@@ -63,5 +63,6 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c
 Project made by:
 
 Anna78990 - https://github.com/Anna78990
+<a href="https://twitter.com/annenne19?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @annenne19</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 NeoV0id   - https://github.com/NeoV0id
 LDoualito - https://github.com/LDoualito

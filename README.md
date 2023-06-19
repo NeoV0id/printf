@@ -1,4 +1,4 @@
-0x11. C - printf
+<b>0x11. C - printf</b>
 
 This repo is a recreation of the printf function, it contains:
 

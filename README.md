@@ -2,13 +2,13 @@
 
 This repo is a recreation of the printf function, it contains:
 
-- 1-printf.c - the whole function
-- 2-printf.c - contains the print_numbers function
-- _putchar.c - prints character
-- printstr.c - prints a string
-- 14-print_rev - prints a string in reverse
-- 15-rot13'ed - translate according rot13 table
-- man_3_printf - man page for _printf
+- <b>1-printf.c</b> - the whole function
+- <b>2-printf.c</b> - contains the print_numbers function
+- <b>_putchar.c</b> - prints character
+- <b>printstr.c</b> - prints a string
+- <b>14-print_rev</b> - prints a string in reverse
+- <b>15-rot13'ed</b> - translate according rot13 table
+- <b>man_3_printf</b> - man page for _printf
 
 This project is a group project for Holberton School
 

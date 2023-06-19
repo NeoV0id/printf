@@ -1,13 +1,13 @@
 <h1>0x11. C - printf</h1>
 
-<i>_printf</i> is our original printf.
+<b><i>_printf</i> is our original printf.</b>
 we started this project because I wanted to learn how to use functions with variable length arguments and function pointers.
 Since it was the first complex function we created, it was very difficult.
 The function which controls strings required particular concentration, since even a single index deviation would cause them to fail to work properly.
 
-Our _printf function implements four format specifiers, %i, %d, %c, and %s, so it can output integers, strings, and characters, but it does not implement %p or %f, so it cannot print pointers or float type data.
+Our <i>_printf</i> function implements four format specifiers, %i, %d, %c, and %s, so it can output integers, strings, and characters, but it does not implement %p or %f, so it cannot print pointers or float type data.
 
-Usage :<br>
+<b>Usage</b> :<br>
 Use it in the same way as using the printf function.
 <div>
     <img src="https://i.postimg.cc/K8F215Zn/Capture-d-e-cran-2023-06-19-a-10-02-18.png" alt="main.c">
@@ -18,7 +18,7 @@ Tadaaa!
 </div>
 
 
-Detail :
+<b>Detail</b> :<br>
 This repo is a recreation of the printf function, it contains:
 
 - <b>1-printf.c</b> - the whole function

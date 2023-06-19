@@ -75,7 +75,7 @@ Use it in the same way as using the printf function.
 </div>
 Tadaaa!
 <div>
-    <img src="https://i.postimg.cc/2S9tFdQb/Capture-d-e-cran-2023-06-19-a-09-22-20.png" alt="main.c">
+    <img src="https://i.postimg.cc/Hx3JNLBN/Capture-d-e-cran-2023-06-19-a-10-02-27.png" alt="main.c">
 </div>
 
 Project made by:

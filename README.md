@@ -71,7 +71,7 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c
 Example:<br>
 Use it in the same way as using the printf function.
 <div>
-    <img src="https://i.postimg.cc/wBDyz2Tn/Capture-d-e-cran-2023-06-19-a-09-22-04.png" alt="main.c">
+    <img src="https://i.postimg.cc/kXHJDS2s/Capture-d-e-cran-2023-06-19-a-10-02-18.png" alt="main.c">
 </div>
 Tadaaa!
 <div>

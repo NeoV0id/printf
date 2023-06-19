@@ -60,8 +60,8 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c
     You might want to look at the gcc flag -Wno-format when testing with your
     _printf and the standard printf.
 
-Example:
-<img src="https://i.postimg.cc/wBDyz2Tn/Capture-d-e-cran-2023-06-19-a-09-22-04.png" alt="main.c">
+Example:<br>
+<p style="text-align: center;"><img src="https://i.postimg.cc/wBDyz2Tn/Capture-d-e-cran-2023-06-19-a-09-22-04.png" alt="main.c"></p>
 
 
 Project made by:

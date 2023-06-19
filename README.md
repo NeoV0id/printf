@@ -64,6 +64,6 @@ Project made by:
 
 Anna78990 - https://github.com/Anna78990
 
-<a href="https://twitter.com/KinuwaReeves?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-lang="en" data-show-count="false"> Twitter -> @KinuwaReeves</a><br>
+Twitter : <a href="https://twitter.com/KinuwaReeves?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-lang="en" data-show-count="false"> @KinuwaReeves</a><br>
 NeoV0id   - https://github.com/NeoV0id
 LDoualito - https://github.com/LDoualito

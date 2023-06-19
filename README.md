@@ -69,14 +69,14 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c
     _printf and the standard printf.
 
 Example:<br>
+Use it in the same way as using the printf function.
 <div>
     <img src="https://i.postimg.cc/wBDyz2Tn/Capture-d-e-cran-2023-06-19-a-09-22-04.png" alt="main.c">
 </div>
-I used in the same way as using the printf function.
+Tadaaa!
 <div>
     <img src="https://i.postimg.cc/2S9tFdQb/Capture-d-e-cran-2023-06-19-a-09-22-20.png" alt="main.c">
 </div>
-Tadaa!
 
 Project made by:
 

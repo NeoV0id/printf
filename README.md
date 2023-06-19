@@ -61,7 +61,7 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c
     _printf and the standard printf.
 
 Example:
-<img src="https://postimg.cc/CZLLHj84" alt="main.c">
+<img src="https://i.postimg.cc/wBDyz2Tn/Capture-d-e-cran-2023-06-19-a-09-22-04.png" alt="main.c">
 
 
 Project made by:

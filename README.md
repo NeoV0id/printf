@@ -61,7 +61,10 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c
     _printf and the standard printf.
 
 Example:<br>
-<p style="text-align: center;"><img src="https://i.postimg.cc/wBDyz2Tn/Capture-d-e-cran-2023-06-19-a-09-22-04.png" alt="main.c"></p>
+<div style="text-align: center;">
+    <img src="https://i.postimg.cc/wBDyz2Tn/Capture-d-e-cran-2023-06-19-a-09-22-04.png" alt="main.c" style = "margin: auto;
+  display: block;">
+</div>
 
 
 Project made by:

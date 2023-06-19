@@ -1,5 +1,13 @@
 <h1>0x11. C - printf</h1>
-
+<style>
+img {
+    style = "margin: auto;
+    display: block;
+    }
+div {
+    text-align: center;
+    }
+</style>
 This repo is a recreation of the printf function, it contains:
 
 - <b>1-printf.c</b> - the whole function
@@ -61,9 +69,8 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c
     _printf and the standard printf.
 
 Example:<br>
-<div style="text-align: center;">
-    <img src="https://i.postimg.cc/wBDyz2Tn/Capture-d-e-cran-2023-06-19-a-09-22-04.png" alt="main.c" style = "margin: auto;
-  display: block;">
+<div>
+    <img src="https://i.postimg.cc/wBDyz2Tn/Capture-d-e-cran-2023-06-19-a-09-22-04.png" alt="main.c">
 </div>
 
 

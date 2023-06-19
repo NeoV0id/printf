@@ -1,6 +1,6 @@
 <h1>0x11. C - printf</h1>
 
-<b><i>_printf</i> is our original printf.</b>
+<h2><i>_printf</i> is our original printf.</h2>
 we started this project because I wanted to learn how to use functions with variable length arguments and function pointers.
 Since it was the first complex function we created, it was very difficult.
 The function which controls strings required particular concentration, since even a single index deviation would cause them to fail to work properly.

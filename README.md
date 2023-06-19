@@ -1,13 +1,24 @@
 <h1>0x11. C - printf</h1>
-<style>
-img {
-    style = "margin: auto;
-    display: block;
-    }
-div {
-    text-align: center;
-    }
-</style>
+
+<i>_printf</i> is our original printf.
+we started this project because I wanted to learn how to use functions with variable length arguments and function pointers.
+Since it was the first complex function we created, it was very difficult.
+The function which controls strings required particular concentration, since even a single index deviation would cause them to fail to work properly.
+
+Our _printf function implements four format specifiers, %i, %d, %c, and %s, so it can output integers, strings, and characters, but it does not implement %p or %f, so it cannot print pointers or float type data.
+
+Usage :<br>
+Use it in the same way as using the printf function.
+<div>
+    <img src="https://i.postimg.cc/K8F215Zn/Capture-d-e-cran-2023-06-19-a-10-02-18.png" alt="main.c">
+</div>
+Tadaaa!
+<div>
+    <img src="https://i.postimg.cc/Hx3JNLBN/Capture-d-e-cran-2023-06-19-a-10-02-27.png" alt="main.c">
+</div>
+
+
+Detail :
 This repo is a recreation of the printf function, it contains:
 
 - <b>1-printf.c</b> - the whole function
@@ -67,16 +78,6 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c
     Our main files will include your main header file (main.h): #include main.h
     You might want to look at the gcc flag -Wno-format when testing with your
     _printf and the standard printf.
-
-Example:<br>
-Use it in the same way as using the printf function.
-<div>
-    <img src="https://i.postimg.cc/K8F215Zn/Capture-d-e-cran-2023-06-19-a-10-02-18.png" alt="main.c">
-</div>
-Tadaaa!
-<div>
-    <img src="https://i.postimg.cc/Hx3JNLBN/Capture-d-e-cran-2023-06-19-a-10-02-27.png" alt="main.c">
-</div>
 
 Project made by:
 
